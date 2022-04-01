@@ -1,0 +1,41 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background:linear-gradient(to right, #2F2325,#8E5D52);
+    font-size: 100%;
+}
+.cabeçario_principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    align-items: center;
+}
+.cabeçario_imagem{
+    width: 62px;
+}
+.cabeçario_link{
+    justify-content: center;
+    font-family: 'Sarala', sem serifa;
+    font-size: 18px;
+    color: #FFF2E7;
+}
+.section1{
+    border-top: 0.4px solid #FFF2E7;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;    
+}
+.imagem_section1{
+    width: 394.13px;
+    
+}
+.button_section1{
+    height: 64px;
+    width: 185px;
+}

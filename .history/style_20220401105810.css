@@ -1,0 +1,22 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background:linear-gradient(to right, #2F2325,#8E5D52);
+    font-size: 100%;
+}
+.cabeçario_principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 28px;
+}
+.cabeçario_imagem{
+    width: 62px;
+}
+.cabeçario_link{
+    justify-content: center;
+}
